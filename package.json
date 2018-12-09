@@ -1,0 +1,27 @@
+{
+  "name": "next-mobx-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "fork-ts-checker-webpack-plugin": "^0.5.0",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.5",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}
