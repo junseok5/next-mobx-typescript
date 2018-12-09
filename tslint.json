@@ -8,7 +8,14 @@
     "interface-name": false,
     // "interface-over-type-literal": false,
     "ordered-imports": false,
-    "quotemark": false
+    "quotemark": false,
+    "member-access": false,
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "no-angle-bracket-type-assertion": false,
+    "whitespace": false,
+    "no-console": false,
+    "arrow-parens": false
   },
   "rulesDirectory": []
 }
