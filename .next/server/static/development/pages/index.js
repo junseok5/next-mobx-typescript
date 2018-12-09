@@ -104,31 +104,12 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\junseok\\Documents\\workspace\\react\\next-mobx-typescript\\components\\Book.tsx";
 
 
 var Book = function Book(_ref) {
   var name = _ref.name,
       author = _ref.author;
-  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Name: ", name, " ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), "author: ", author, " ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }));
+  return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, "Name: ", name, " ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "author: ", author, " ", react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Book);
@@ -147,29 +128,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Book__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Book */ "./components/Book.tsx");
-var _jsxFileName = "C:\\Users\\junseok\\Documents\\workspace\\react\\next-mobx-typescript\\pages\\index.tsx";
+/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/base.scss */ "./styles/base.scss");
+/* harmony import */ var _styles_base_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_base_scss__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
 var Index = function Index() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Book__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Book__WEBPACK_IMPORTED_MODULE_1__["default"], {
     name: "\uB9B0\uC2A4\uD0C0\uD2B8\uC5C5",
-    author: "Junseok Oh",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
+    author: "Junseok Oh"
   }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./styles/base.scss":
+/*!**************************!*\
+  !*** ./styles/base.scss ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 

@@ -1,4 +1,5 @@
 import Book from '../components/Book'
+import '../styles/base.scss'
 
 const Index = () => {
   return (
